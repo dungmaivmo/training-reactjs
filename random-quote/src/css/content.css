@@ -1,0 +1,15 @@
+.quote-text {
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+.quote-text i {
+    font-size: 0.9em;
+    margin-right: 0.4em;
+}
+
+.quote-author {
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}

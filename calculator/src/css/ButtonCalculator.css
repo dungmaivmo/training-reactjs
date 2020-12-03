@@ -1,0 +1,35 @@
+#clear{
+    background: rgb(172, 57, 57);
+}
+
+#equals{
+    background: rgb(0, 68, 102)
+}
+.width--max {
+    width: 160px;
+}
+
+.height--max {
+    position: absolute;
+    height: 130px;
+    bottom: 5px;
+}
+
+button {
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 1px solid black;
+    border: none;
+    background: #4d4d4d;
+    font-size: 20px;
+    cursor: default;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+button:hover {
+    color: black;
+    outline: 0.05em solid grey;
+    z-index: 3;
+}

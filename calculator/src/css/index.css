@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Digital";
+    src: url(./font/digital-7/digital-7.ttf);
+}
+
+@font-face {
+    font-family: "Share Tech Mono", monospace;
+    src: url(./font/Share_Tech_Mono/ShareTechMono-Regular.ttf);
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #c2c2d6;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+body,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    margin-top: 100px;
+    border: 2px solid #47476b;
+    padding: 5px;
+    background: black;
+    width: 320px;
+    position: relative;
+}
+
+@import "./ButtonCalculator.css";
+@import "./CalculatorScreen.css";
